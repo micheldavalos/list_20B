@@ -7,7 +7,7 @@
 class Seleccion
 {
 public:
-    Seleccion();
+    Seleccion() {}
     Seleccion(const string &nombre):nombre(nombre){}
 
     void setNombre(const string &nombre);
